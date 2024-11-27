@@ -1,0 +1,12 @@
+ Module (JAVASCRIPT BASIC & DOM) – 4 
+1.What is JavaScript?
+=>JavaScript is a programming language use to create dynamic website.It is a client side scripting languageJavaScript supports object-oriented programming (OOP), allowing developers to create objects, define properties, and work with inheritance.
+2. What is the use of isNaN function?
+=>The isNaN() function in JavaScript is used to determine whether a value is NaN (Not-a-Number). It checks if a given value is not a valid number. If the value is NaN or cannot be converted into a number, the function returns true; otherwise, it returns false.
+3. What is negative Infinity? 
+=>
+4.Which company developed JavaScript?
+=>JavaScript was developed by Netscape Communications Corporation, specifically by Brendan Eich in 1995. Brendan Eich created the language in just 10 days while working at Netscape. Initially, it was called Mocha, then renamed to LiveScript, and finally to JavaScript to capitalize on the popularity of the Java programming language at the time.
+5. What are undeclared and undefined variables? 
+=>
+
