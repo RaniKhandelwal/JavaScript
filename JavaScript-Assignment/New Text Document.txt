@@ -4,9 +4,59 @@
 2. What is the use of isNaN function?
 =>The isNaN() function in JavaScript is used to determine whether a value is NaN (Not-a-Number). It checks if a given value is not a valid number. If the value is NaN or cannot be converted into a number, the function returns true; otherwise, it returns false.
 3. What is negative Infinity? 
-=>
+=>negativ infinity in JavaScript is a constant value that is used to represent  a value that is lowest available.
 4.Which company developed JavaScript?
 =>JavaScript was developed by Netscape Communications Corporation, specifically by Brendan Eich in 1995. Brendan Eich created the language in just 10 days while working at Netscape. Initially, it was called Mocha, then renamed to LiveScript, and finally to JavaScript to capitalize on the popularity of the Java programming language at the time.
 5. What are undeclared and undefined variables? 
+=>An undeclared variable is a variable that has not been declared with a keyword like var, let, or const.
+while undefined variables are those that have been declared but not given a value. 
+6. Write the code for adding new elements dynamically?
+=>with the help of createelement().
+</head>
+<body>
+   <h1>
+      Welcome To Tutorials Point
+   </h1>
+   <div id="innerdiv"></div>
+   <button id="mybutton">
+      Click to Add HTML element
+   </button>
+   <script>
+      document.getElementById("mybutton").
+      addEventListener("click", function () {
+         document.getElementById("innerdiv").innerHTML += "<h3>Hello User</h3><p>Start your learning journey today.</p>";
+      });
+   </script>
+</body>
+7. What is the difference between ViewState and SessionState?
 =>
+8. What is === operator?
+=>JavaScript Strict Equality Operator is used to compare two operands and return true if both the value and type of operands are the same.
+9. How can the style/class of an element be changed?
+=> JavaScript can change the style of an HTML element by accessing and modifying its CSS properties through the style attribute.
+10. How to read and write a file using JavaScript? 
+=> we can read and write file using JavaScript through browser and node.js.
+11. What are all the looping structures in JavaScript? 
+=>for Loop
+while Loop
+do-while Loop
+for-in Loop
+for-of Loop
+for-each.
+12. How can you convert the string of any base to an integer in JavaScrip
+=>Convert a String to an Integer in JavaScript =
+ 1. Using Number() Method 
+ 2. Using Unary + Operator 
+ 3. Using parseInt() Method.
+13.What is the function of the delete operator?
+=>delete operator is used to remove property from the object.
+14.What are all the types of Pop up boxes available in JavaScript?
+=>javaScript has three type of popup boxes : Alert box , Confirm box , Prompt box.
+15.What is the use of Void (0)?
+=>void is used to return premitive undefine value, void (0) is used to to prevent hyperlinks from nevigating to a new page or refreshing to current page when its clicked.
+16.How can a page be forced to load another page in JavaScript?
+=> In JavaScript, you can force a page to load another page by using the window.location object.
+17.What are the disadvantages of using innerHTML in JavaScript?
+=>it slow down thw loading of ypur web page and content is also replace everywhere.
+we cannot use like appending in innerhtml
 
